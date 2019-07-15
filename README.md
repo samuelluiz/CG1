@@ -11,15 +11,18 @@ Para mostrar o ponto na tela foi necessário criar uma função que recebe como 
 Arquivo exibindo o resultado: (ponto.JPG)
 
 - Linha
+
 A função para desenhar uma linha foi criada utilizando e chamando a função anterior para desenhar um ponto. Como parâmetros recebe a posição em (x,y) do ponto inicial e sua cor, assim como a posição em (x,y) do ponto final e respectivamente a sua cor. Trançando uma linha do ponto inicial até o ponto final misturando ambas as cores.
 
 Código base para implementação:  http://electrofriends.com/source-codes/software-programs/c/graphics/c-program-to-for-midpoint-line-algorithm/
+
 Arquivo exibindo o resultado: (linha.JPG)
 
 - Triângulo
 
 
 Código base para implementação: https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
+
 Arquivo exibindo o resultado: (triângulo.JPG)
 
 - Triângulo Preenchido
@@ -27,4 +30,5 @@ Arquivo exibindo o resultado: (triângulo.JPG)
 
 
 Código base para implementação: https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
+
 Arquivo exibindo o resultado: (triângulopreenchido.JPG)
