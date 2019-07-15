@@ -16,7 +16,7 @@ Arquivo exibindo o resultado: (ponto.JPG)
 
 ![linha](https://user-images.githubusercontent.com/30871470/61192920-336f2680-a68e-11e9-89db-0e21910ac264.JPG)
 
-A função para desenhar uma linha foi criada utilizando e chamando a função anterior para desenhar um ponto. Como parâmetros recebe a posição em (x,y) do ponto inicial e sua cor, assim como a posição em (x,y) do ponto final e respectivamente a sua cor. Trançando uma linha do ponto inicial até o ponto final misturando ambas as cores.
+A função para desenhar uma linha foi criada utilizando e chamando a função anterior para desenhar um ponto. Como parâmetros recebe a posição em (x,y) do ponto inicial e sua cor, assim como a posição em (x,y) do ponto final e respectivamente a sua cor. Trançando uma linha do ponto inicial até o ponto final contando também com o algorítimo de mistura de ambas as cores dos polos.
 
 Código base para implementação:  http://electrofriends.com/source-codes/software-programs/c/graphics/c-program-to-for-midpoint-line-algorithm/
 
@@ -26,6 +26,7 @@ Arquivo exibindo o resultado: (linha.JPG)
 
 ![triângulo](https://user-images.githubusercontent.com/30871470/61192933-408c1580-a68e-11e9-88f9-504c7b68a556.JPG)
 
+Para exibir o triângulo foi necessário chamar a função de desenhar linha citada anteriormente, conectando os 3 pontos (x,y) passados nos parâmetros da função, colorindo as astes também com as 3 cores recebidas como parâmetro na função.
 
 Código base para implementação: https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
 
@@ -35,6 +36,7 @@ Arquivo exibindo o resultado: (triângulo.JPG)
 
 ![triângulopreenchido](https://user-images.githubusercontent.com/30871470/61192947-50a3f500-a68e-11e9-8cba-977f578b78a9.JPG)
 
+Na mesma função citada anteriormente foi adicionado um boleano e uma 4ª cor, referentes ao preenchimento do triângulo e a cor do preenchimento, caso fosse verdadeiro o triângulo seria preenchido e caso falso, o triângulo permaneceria apenas com suas astes sem preenchimento.
 
 Código base para implementação: https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
 
