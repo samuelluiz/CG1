@@ -18,7 +18,7 @@ Arquivo exibindo o resultado: (ponto.JPG)
 
 A função para desenhar uma linha foi criada utilizando e chamando a função anterior para desenhar um ponto. Como parâmetros recebe a posição em (x,y) do ponto inicial e sua cor, assim como a posição em (x,y) do ponto final e respectivamente a sua cor. Trançando uma linha do ponto inicial até o ponto final contando também com o algorítimo de mistura de ambas as cores dos polos.
 
-Código base para implementação:  http://electrofriends.com/source-codes/software-programs/c/graphics/c-program-to-for-midpoint-line-algorithm/
+Base para implementação:  http://electrofriends.com/source-codes/software-programs/c/graphics/c-program-to-for-midpoint-line-algorithm/
 
 Arquivo exibindo o resultado: (linha.JPG)
 
@@ -28,7 +28,7 @@ Arquivo exibindo o resultado: (linha.JPG)
 
 Para exibir o triângulo foi necessário chamar a função de desenhar linha citada anteriormente, conectando os 3 pontos (x,y) passados nos parâmetros da função, colorindo as astes também com as 3 cores recebidas como parâmetro na função.
 
-Código base para implementação: https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
+Base para implementação: https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
 
 Arquivo exibindo o resultado: (triângulo.JPG)
 
@@ -38,6 +38,6 @@ Arquivo exibindo o resultado: (triângulo.JPG)
 
 Na mesma função citada anteriormente foi adicionado um boleano e uma 4ª cor, referentes ao preenchimento do triângulo e a cor do preenchimento, caso fosse verdadeiro o triângulo seria preenchido e caso falso, o triângulo permaneceria apenas com suas astes sem preenchimento.
 
-Código base para implementação: https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
+Base para implementação: https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
 
 Arquivo exibindo o resultado: (triângulopreenchido.JPG)
